@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+}
+
+.links {
+  justify-content: flex-start;
+}
+
+.links a {
+  padding-right: 5px;
+}
+
+.title {
+  justify-content: flex-end;
+}
