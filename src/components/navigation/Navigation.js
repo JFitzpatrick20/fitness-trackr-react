@@ -9,6 +9,7 @@ import {
   REGISTER_ROUTE,
   ROUTINES_ROUTE,
 } from "../constants";
+import "./Navigation.css";
 
 const Navigation = () => {
   const [authenticated, setAuthenticated] = useState(false);

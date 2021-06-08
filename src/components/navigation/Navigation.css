@@ -7,9 +7,5 @@
 }
 
 .links a {
-  padding-right: 5px;
-}
-
-.title {
-  justify-content: flex-end;
+  padding-right: 10px;
 }

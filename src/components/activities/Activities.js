@@ -25,7 +25,7 @@ const Activities = () => {
   }, []);
   return (
     <>
-      <h1>Activites Page</h1>
+      <h1>Activities Page</h1>
       <TableContainer component={Paper}>
         <Table>
           <TableHead>
