@@ -10,7 +10,7 @@ const Login = () => {
 
   const loginUser = async () => {
     return await axios
-      .post(`${process.env.REACT_APP_FITNESS_TRACKR_API_URL}users/login`, {
+      .post(`${process.env.REACT_APP_FITNESS_TRACKR_API_URL}/users/login`, {
         username,
         password,
       })

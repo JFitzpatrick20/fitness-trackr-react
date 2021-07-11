@@ -10,7 +10,7 @@ const Register = () => {
 
   const registerUser = async () => {
     return await axios
-      .post(`${process.env.REACT_APP_FITNESS_TRACKR_API_URL}users/register`, {
+      .post(`${process.env.REACT_APP_FITNESS_TRACKR_API_URL}/users/register`, {
         username,
         password,
       })

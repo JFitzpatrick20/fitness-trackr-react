@@ -2,7 +2,7 @@ import React from "react";
 
 const WelcomeScreen = () => {
   return (
-    <div stle={{}}>
+    <div>
       <header>
         <h1 style={{ fontSize: "75px", textDecoration: "bold" }}>
           Fitness Tracker

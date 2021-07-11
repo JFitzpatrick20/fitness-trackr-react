@@ -1,6 +1,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { ACTIVITIES_ROUTE } from "../constants.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import {
   Paper,
   TableContainer,
@@ -10,6 +12,7 @@ import {
   TableCell,
   TableBody,
 } from "@material-ui/core";
+import ActivityHeader from "./activitiesHeader.js";
 
 const Activities = () => {
   const [activities, setActivities] = useState();
@@ -26,8 +29,9 @@ const Activities = () => {
   return (
     <>
       <h1>Activities Page</h1>
+      <ActivityHeader />
       <TableContainer component={Paper}>
-        <Table>
+        <Table variant="dark">
           <TableHead>
             <TableRow>
               <TableCell align="right">ID</TableCell>
